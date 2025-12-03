@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Cinnamon - HIRU Consumer Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/hiru-logo.svg" alt="HIRU Consumer Products" class="logo">
+                <span class="logo-text">HIRU</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#products" class="nav-link active">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#quality" class="nav-link">Quality</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero Section -->
+    <section class="product-hero parallax-section cinnamon-hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container">
+            <div class="product-hero-content">
+                <div class="product-hero-text animate-on-scroll">
+                    <nav class="breadcrumb" aria-label="Breadcrumb navigation">
+                        <a href="index.html">Home</a> > <a href="index.html#products">Products</a> > <span>Ceylon Cinnamon</span>
+                    </nav>
+                    <h1>Ceylon Cinnamon</h1>
+                    <p class="product-tagline">The world's finest cinnamon with sweet aroma and delicate flavor</p>
+                    <div class="product-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-seedling"></i>
+                            <span>Organic</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Sweet Aroma</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-medkit"></i>
+                            <span>Health Benefits</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-hero-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1599909533066-76c8e3a6902e?w=800&h=600&fit=crop" alt="Ceylon Cinnamon" class="product-main-image zoom-on-scroll">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section class="product-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="details-content animate-on-scroll">
+                    <h2>About Our Ceylon Cinnamon</h2>
+                    <p>
+                        Ceylon Cinnamon, known as "True Cinnamon," is exclusively grown in Sri Lanka and is 
+                        considered the finest cinnamon in the world. Unlike common cassia cinnamon, 
+                        Ceylon cinnamon has a sweet, delicate flavor with subtle citrusy notes.
+                    </p>
+                    <p>
+                        Our cinnamon is harvested from the inner bark of Cinnamomum verum trees, 
+                        carefully processed using traditional methods passed down through generations. 
+                        The result is cinnamon quills with superior quality, aroma, and therapeutic properties.
+                    </p>
+                    
+                    <div class="product-benefits">
+                        <h3>Health Benefits</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Regulates blood sugar</li>
+                            <li><i class="fas fa-check"></i> Anti-inflammatory properties</li>
+                            <li><i class="fas fa-check"></i> Rich in antioxidants</li>
+                            <li><i class="fas fa-check"></i> Supports heart health</li>
+                            <li><i class="fas fa-check"></i> Boosts immune system</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="brewing-guide animate-on-scroll">
+                    <h2>Usage Guide</h2>
+                    <div class="brewing-steps">
+                        <div class="brewing-step">
+                            <div class="step-icon">1</div>
+                            <div class="step-content">
+                                <h4>Baking & Desserts</h4>
+                                <p>Add to cookies, cakes, and pastries for authentic flavor</p>
+                            </div>
+                        </div>
+                        <div class="brewing-step">
+                            <div class="step-icon">2</div>
+                            <div class="step-content">
+                                <h4>Hot Beverages</h4>
+                                <p>Stir into coffee, tea, or hot chocolate</p>
+                            </div>
+                        </div>
+                        <div class="brewing-step">
+                            <div class="step-icon">3</div>
+                            <div class="step-content">
+                                <h4>Cooking</h4>
+                                <p>Enhance curries, rice dishes, and meat preparations</p>
+                            </div>
+                        </div>
+                        <div class="brewing-step">
+                            <div class="step-icon">4</div>
+                            <div class="step-content">
+                                <h4>Health Tonic</h4>
+                                <p>Mix with honey and warm water for daily wellness</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Varieties Section -->
+    <section class="product-varieties">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Cinnamon Products</h2>
+                <p>Choose from our range of premium Ceylon cinnamon products</p>
+            </div>
+            <div class="varieties-grid">
+                <div class="variety-card animate-on-scroll">
+                    <div class="variety-icon">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>Cinnamon Quills</h3>
+                    <p>Traditional cinnamon bark rolls, perfect for infusions and whole spice cooking.</p>
+                    <div class="variety-features">
+                        <span>Whole Bark</span>
+                        <span>Long Lasting</span>
+                    </div>
+                </div>
+                
+                <div class="variety-card animate-on-scroll">
+                    <div class="variety-icon">
+                        <i class="fas fa-mortar-pestle"></i>
+                    </div>
+                    <h3>Cinnamon Powder</h3>
+                    <p>Finely ground cinnamon powder, ideal for baking and instant flavor enhancement.</p>
+                    <div class="variety-features">
+                        <span>Fine Ground</span>
+                        <span>Ready to Use</span>
+                    </div>
+                </div>
+                
+                <div class="variety-card animate-on-scroll">
+                    <div class="variety-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Cinnamon Oil</h3>
+                    <p>Pure Ceylon cinnamon essential oil for aromatherapy and culinary applications.</p>
+                    <div class="variety-features">
+                        <span>Essential Oil</span>
+                        <span>Concentrated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ceylon vs Cassia Section -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Ceylon vs Cassia Cinnamon</h2>
+                <p>Understanding the difference between true cinnamon and common cinnamon</p>
+            </div>
+            <div class="comparison-table animate-on-scroll">
+                <div class="comparison-header">
+                    <div></div>
+                    <div class="header-ceylon">Ceylon Cinnamon</div>
+                    <div class="header-cassia">Cassia Cinnamon</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-label">Taste</div>
+                    <div class="comparison-ceylon">Sweet & Delicate</div>
+                    <div class="comparison-cassia">Strong & Spicy</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-label">Coumarin Content</div>
+                    <div class="comparison-ceylon">Very Low (0.004%)</div>
+                    <div class="comparison-cassia">High (0.31-0.44%)</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-label">Texture</div>
+                    <div class="comparison-ceylon">Soft & Fragile</div>
+                    <div class="comparison-cassia">Hard & Tough</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-label">Health Benefits</div>
+                    <div class="comparison-ceylon">Superior</div>
+                    <div class="comparison-cassia">Limited</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-label">Origin</div>
+                    <div class="comparison-ceylon">Sri Lanka Only</div>
+                    <div class="comparison-cassia">China, Indonesia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance Section -->
+    <section class="product-quality-assurance parallax-section">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="product-quality-content animate-on-scroll">
+                <div class="product-quality-text">
+                    <h2>Certified Authenticity</h2>
+                    <p>
+                        Our Ceylon Cinnamon comes with guaranteed authenticity certificates. 
+                        Every batch is tested for purity and quality to ensure you receive 
+                        genuine Ceylon cinnamon with all its natural benefits.
+                    </p>
+                    <div class="quality-certifications">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Ceylon Cinnamon Certified</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-seedling"></i>
+                            <span>100% Organic</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Purity Guaranteed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quality-image">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.wLP4Dd-JPMuf5LZmsZ757gHaEK?w=2240&h=1260&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Quality Assurance" class="zoom-on-scroll">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="related-products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>You Might Also Like</h2>
+                <p>Explore our other premium products</p>
+            </div>
+            <div class="related-grid">
+                <div class="related-card animate-on-scroll">
+                    <div class="related-image">
+                        <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=600&h=400&fit=crop" alt="Ceylon Tea" class="zoom-on-hover">
+                    </div>
+                    <div class="related-content">
+                        <h3>Premium Ceylon Tea</h3>
+                        <p>Experience the rich, full-bodied flavor of authentic Ceylon tea.</p>
+                        <a href="tea.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/hiru-logo.svg" alt="HIRU" class="footer-logo">
+                    <h3>HIRU Consumer Products</h3>
+                    <p>Healthy Living Starts Here</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="tea.html">Ceylon Tea</a></li>
+                            <li><a href="cinnamon.html">Ceylon Cinnamon</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html#about">About Us</a></li>
+                            <li><a href="index.html#quality">Quality</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HIRU Consumer Products. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top visible" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
