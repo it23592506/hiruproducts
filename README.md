@@ -168,8 +168,8 @@ Duplicate the product card structure in the HTML and update content.
 ## 📞 Contact Information
 
 **HIRU Consumer Products**
-- Address: 123 Tea Garden Road, Colombo, Sri Lanka
-- Phone: +94 11 234 5678
+- Address: 
+- Phone: +94 71 299 1292
 - Email: info@hiruconsumer.com
 
 ## 🏆 Credits
